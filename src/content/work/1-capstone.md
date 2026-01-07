@@ -2,7 +2,7 @@
 title: Print|ED Website
 publishDate: 2025-10-25 00:00:00
 img: /assets/capstone-screenshot.png
-img_alt: A screenshot of a printer company Figma design.
+img_alt: A screenshot of a printer company website.
 description: |
   A team based website development for a client.
 tags:
