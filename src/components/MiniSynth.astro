@@ -1,0 +1,44 @@
+<div class="synth-section">
+        <div class="efx">
+        <div>
+            <label for="delay">Delay</label>
+            <input type="checkbox" id="delay" />
+        </div>
+
+        <div>
+            <label for="reverb">Reverb</label>
+            <input type="checkbox" id="reverb" />
+        </div>
+
+        <div>
+            <label for="chorus">Chorus</label>
+            <input type="checkbox" id="chorus" />
+        </div>
+    </div>
+
+    <div class="keys">
+        <div id="container"></div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/tone@15.1.22/build/Tone.js"></script>
+<script type="module" src="/scripts/synth.js"></script>
+
+<style>
+    .keys {
+        height: 100%;
+    }
+
+    .efx {
+        display: flex;
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .synth-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

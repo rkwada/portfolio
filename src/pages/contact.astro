@@ -1,0 +1,130 @@
+---
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+	title="Contact Me | Rikuo Wada"
+	description="Contact form for Rikuo Wada."
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Contact Me"
+				tagline="Want to connect? Send me a message!"
+				align="start"
+			/>
+
+			<div class="form">
+				<form
+					id="captcha"
+					action="https://api.web3forms.com/submit"
+					method="POST"
+				>
+					<input
+						type="hidden"
+						name="access_key"
+						value="2460a66d-58cb-478d-ad3c-6bc0ea60392c"
+					/>
+					<div class="inputs">
+						<label for="name" class="font-medium">Full Name:</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							required
+							placeholder="Enter your full name here."
+						/>
+					</div>
+					<div class="inputs">
+						<label for="email" class="font-medium">Email:</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							required
+							placeholder="Enter your email address here."
+						/>
+					</div>
+					<div class="inputs">
+						<label for="message" class="font-medium">Message:</label
+						>
+						<textarea
+							name="message"
+							id="message"
+							rows="10"
+							required
+							placeholder="Enter your message here."></textarea>
+					</div>
+
+					<div class="h-captcha" data-captcha="true"></div>
+
+					<div class="submit">
+						<input
+							type="hidden"
+							name="redirect"
+							value="http://localhost:4321/thanks/"
+						/>
+						<button type="submit">Send Message</button>
+					</div>
+				</form>	
+		</main>
+	</div>
+</BaseLayout>
+
+<style>
+	.form {
+		margin: 0 auto;
+		font-family: var(--font-body);
+	}
+
+	.inputs {
+		display: flex;
+		flex-direction: column;
+	}
+
+	input,
+	textarea,
+	button {
+		font-family: var(--font-body);
+		font-size: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
+		border-radius: 0.5rem;
+	}
+
+	@media (min-width: 320px) {
+		.form,
+		.submit button {
+			width: 100%;
+		}
+	}
+
+	@media (min-width: 800px) {
+		.form {
+			max-width: 800px;
+		}
+
+		.submit button {
+			width: unset;
+		}
+	}
+</style>
+
+<script type="module">
+	const form = document.getElementById("captcha");
+
+	form.addEventListener("submit", function (e) {
+		const hCaptcha = form.querySelector(
+			"textarea[name=h-captcha-response]",
+		).value;
+
+		if (!hCaptcha) {
+			e.preventDefault();
+			alert("Please fill out captcha field");
+			return;
+		}
+	});
+</script>
+
+<script src="https://web3forms.com/client/script.js" async defer></script>

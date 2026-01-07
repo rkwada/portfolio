@@ -1,0 +1,21 @@
+---
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+	title="Thank you! | Rikuo Wada"
+	description="Thank you for the message."
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Thank you!"
+				tagline="Your message has been sent."
+				align="start"
+			/>
+
+			<a href="/">Back to Home</a>
+		</main>
+	</div>
+</BaseLayout>

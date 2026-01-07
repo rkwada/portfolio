@@ -1,0 +1,127 @@
+---
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="About | Rikuo Wada" description="About Rikuo Wada">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero title="About Rikuo" tagline="Hey! 👋">
+				<img
+					width="1553"
+					height="873"
+					src="/assets/my-photo.avif"
+					alt="Rikuo Wada standing in a art backdrop"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">About Me</h2>
+				<div class="content">
+					<p>
+						My name is Rikuo (pronounced "ree-koo" or "ree-koo-oh")
+						and I am an emerging Web UX/UI Designer and Front-End
+						Developer based in Edmonton, Alberta. I am passionate
+						about designing and developing collaborative web projects that are meaningful and that resonate with
+						others. I come from an audio engineer/music producing background so I think about balance and elements that work together, whether it's in a song or for web user experience. I am always learning new things and enjoy meeting new people!
+					</p>
+					<p>
+						I am currently finishing up my last semester in NAIT's
+						Digital Media & IT program, focusing on Web Design and
+						Development. I have also received a diploma in Advanced
+						Audio Engineering and Music Production, graduating back
+						in 2021.
+					</p>
+					<p>
+						Other than working on web projects, you can find me
+						recording/producing some music and hanging out with my
+						cat Suki. I am always on the hunt to listen to new music
+						(currently some Oasis and new WHATMORE album), and if
+						you have any music suggestions or just want to talk
+						about web design, shoot me a message!
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>
+						<strong>Design:</strong> Figma, Affinity, Adobe Creative
+						Suite
+					</p>
+					<p>
+						<strong>Development:</strong> HTML, CSS/SASS, JavaScript, Git/GitHub, React, Astro
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Achievements and Awards</h2>
+				<div class="content">
+					<p>Jason Lang Scholarship 2025</p>
+				</div>
+			</section>
+		</main>
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content p {
+		margin-bottom: 1rem;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
