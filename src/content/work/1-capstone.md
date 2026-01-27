@@ -15,7 +15,7 @@ tags:
 
 ## Project Overview
 
-For my NAIT capstone project, I worked with two classmates on the redesign and development of a 9-page website for Print|ED, a local printing company in Edmonton. The problem with the website was that it was not functional, and more of a "glorified business card" with not much content and pages that show the products and services the site offers. 
+For my NAIT capstone project, I worked with two classmates on the redesign and development of a 9-page website for Print|ED, a local printing company in Edmonton. The problem with the website was that it was not functional, and more of a "glorified business card" with not much content and pages that show the products and services the site offers. This capstone project was a competing one, where two groups work with the same client, where the client chooses their favourite design out of the groups for their final website.
 
 ### The Process
 
@@ -27,4 +27,4 @@ One of the goals as a team for this project was to learn new technologies, so we
 
 ### Results and Learning
 
-I learned that I am capable of delivering and handling real-world projects for clients, learning new technologies, and working collaboratively with team members on projects.
+I learned that I am capable of delivering and handling real-world projects for clients, learning new technologies, and working collaboratively with team members on projects. Using the keywords that we chose, the website ranked in the top 10 positions in Google searches. The client was so thrilled with our website that they have decided to choose our design as the final website. 
