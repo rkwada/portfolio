@@ -18,7 +18,7 @@ A personal project combining my two passions, music and web development. I wante
 
 ### The Process
 
-Inspired by <a href="https://io808.com/">io808.com</a>, I researched and used Tone.js, a framework that uses the Web Audio API to create a mini-synthesizer (you can check that out <a href="/synth/">here!</a>). I used the tools that I learned with the Tone.js project with JavaScript to create a looping 1-bar drum beat by pressing the buttons to activate the drum sounds. Some of the features I made were to be able to change the BPM and to follow the notes using an indicator above the buttons.
+Inspired by <a href="https://io808.com/">io808.com</a>, I researched and used Tone.js, a framework that uses the Web Audio API to create a mini-synthesizer (you can check that out <a href="/music/">here!</a>). I used the tools that I learned with the Tone.js project with JavaScript to create a looping 1-bar drum beat by pressing the buttons to activate the drum sounds. Some of the features I made were to be able to change the BPM and to follow the notes using an indicator above the buttons.
 
 ### Upcoming Features 
 
