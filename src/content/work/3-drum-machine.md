@@ -22,7 +22,7 @@ Inspired by <a href="https://io808.com/">io808.com</a>, I researched and used To
 
 ### Upcoming Features 
 
-Some things I am currently developing are styling, changing audio levels, adding effects, and the ability to switch to different drum kits.
+Some things I am currently developing are styling, adding effects, and the ability to switch to different drum kits.
 
 ### Challenges
 
@@ -30,4 +30,4 @@ A challenge I faced when I created the original concept was just learning how to
 
 ### Results
 
-The result right now is a functioning drum machine sequencer that plays a drum beat. I am working on implementing some features, but let me know if you have ideas!
+The result right now is a functioning drum machine sequencer that plays a drum beat with the ability to change audio levels for each drum sound. I am working on implementing some features, but let me know if you have ideas!
