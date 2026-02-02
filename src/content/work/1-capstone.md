@@ -15,11 +15,11 @@ tags:
 
 ## Project Overview
 
-For my NAIT capstone project, I worked with two classmates on the redesign and development of a 9-page website for Print|ED, a local printing company in Edmonton. The problem with the website was that it was not functional, and more of a "glorified business card" with not much content and pages that show the products and services the site offers. This capstone project was a competing one, where two groups work with the same client, where the client chooses their favourite design out of the groups for their final website.
+For my NAIT capstone project, I worked with two classmates on the redesign and development of a 9-page website for Print|ED, a local printing company in Edmonton. The problem with the website was that it was not functional, and more of a "glorified business card" with not much content or pages that show products and services that the site offers. This capstone project was a competing one, where two groups work with the same client, where the client chooses their favourite design out of the groups for their final website.
 
 ### The Process
 
-During the first meeting, the client wanted some featured products and services to be featured prominently on the website. One of the client's goals was good SEO for the featured products, where the user would search for the product, and it would link to his website. Another deliverable was a redesign of the client's current logo. My role in the group was to help with both the design and development of the website. Using Figma, I adjusted the design elements using CRAP principles, created the layout design for the products, and was also responsible for redesigning the logo. Using Astro as our framework, I created the navigation and footer components to be reused throughout the site.
+During the first meeting, the client wanted some featured products and services to be featured prominently on the website. One of the client's goals was good SEO for the featured products, where the user would search for the product, and it would link to his website. Another deliverable was a redesign of the client's current logo. My role in the group was to help with both the design and development of the website. Using Figma, I adjusted the design elements using CRAP principles, created wirefranes and layout design for the products, and was also responsible for redesigning the logo. Using Astro as our framework, I created the navigation and footer components to be reused throughout the site.
 
 ### Challenge and Solution
 
