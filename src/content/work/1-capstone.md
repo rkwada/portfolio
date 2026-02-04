@@ -4,7 +4,7 @@ publishDate: 2025-10-25 00:00:00
 img: /assets/capstone-screenshot.png
 img_alt: A screenshot of a print company website.
 description: |
-  A team based website development for a client.
+  A team based website design and development for a client.
 tags:
   - HTML
   - CSS/SASS
