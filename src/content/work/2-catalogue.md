@@ -29,4 +29,4 @@ One of the challenges I faced towards the end of the project was that the websit
 
 ### Results and Learnings
 
-With all the features implemented, I received an A grade for the project. I learned that I am capable of implementing new technologies like Bootstrap and further strengthened my knowledge of PHP and MySQL databases. 
+With all the features implemented, I received an A grade for the project. I learned that I am capable of implementing newly learned frameworks like Bootstrap and further strengthened my knowledge of PHP and MySQL databases. 

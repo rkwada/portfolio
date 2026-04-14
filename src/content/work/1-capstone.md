@@ -27,8 +27,8 @@ During the first meeting, the client wanted some featured products and services 
 
 ### Challenge and Solution
 
-One of the goals as a team for this project was to learn new technologies, so we decided to learn and use Strapi as the content management system and Astro as the front-end JavaScript framework. We faced a challenge with Strapi because it needed a separate server to host all the web content itself. We did a lot of testing and research on different cloud hosting providers and decided on Strapi's own service, because of the free tier for development and flexibility for the client to upgrade to a paid tier.
+One of the goals as a team for this project was to learn new technologies, so we decided to learn and use Strapi as the content management system and Astro as the front-end JavaScript framework. We faced challenges with Strapi because of its steep learning curve, it needed a separate server to host all the web content itself. We did a lot of testing and research on different cloud hosting providers and decided on Strapi's own service, because of the free tier for development and flexibility for the client to upgrade to a paid tier.
 
 ### Results and Learning
 
-I learned that I am capable of delivering and handling real-world projects for clients, learning new technologies, and working collaboratively with team members on projects. Using the keywords that we chose, the website ranked in the top 10 positions in Google searches. The client was so thrilled with our website that they have decided to choose our design as the final website. 
+I learned that I am capable of delivering and handling real-world projects for clients, learning new technologies, and working collaboratively with team members on projects. Using the keywords that we chose, the website ranked in the top 10 positions in Google searches. The client was so thrilled with our website that they have decided to choose our design as their final website. 
