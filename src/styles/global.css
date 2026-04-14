@@ -17,7 +17,7 @@
 	--gray-999: #ffffff;
 
 	--accent-light: #3690ff;
-	--accent-regular: #001fcf;
+	--accent-regular: #0048cf;
 	--accent-dark: #1c0056;
 	--accent-overlay: hsla(201, 63%, 59%, 0.33);
 	--accent-subtle-overlay: var(--accent-overlay);
@@ -93,7 +93,7 @@
 	--gray-999: #090b11;
 
 	--accent-light: #3690ff;
-	--accent-regular: #001fcf;
+	--accent-regular: #0048cf;
 	--accent-dark: #61b0f6;
 	--accent-overlay: hsla(201, 63%, 59%, 0.33);
 	--accent-subtle-overlay: var (--accent-overlay);
